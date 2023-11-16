@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Responsive Admin &amp; Dashboard Template based on Bootstrap 5">
+	<meta name="author" content="AdminKit">
+	<meta name="keywords" content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="shortcut icon" href="img/icons/icon-48x48.png" />
+
+	<link rel="canonical" href="https://demo-basic.adminkit.io/ui-forms.html" />
+
+	<title>Procesado</title>
+
+	<link href="css/app.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+	<div class="wrapper">
+		<nav id="sidebar" class="sidebar js-sidebar">
+			<div class="sidebar-content js-simplebar">
+				<a class="sidebar-brand" href="index.html">
+          <span class="align-middle">Nosfer</span>
+        </a>
+
+				<ul class="sidebar-nav">
+					<li class="sidebar-header">
+						Menu
+					</li>
+
+					<li class="sidebar-item active">
+						<a class="sidebar-link" href="index.html">
+              <i class="align-middle" data-feather="sliders"></i> <span class="align-middle">Dashboard</span>
+            </a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="pages-profile.html">
+              <i class="align-middle" data-feather="user"></i> <span class="align-middle">Perfil</span>
+            </a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="pages-sign-in.html">
+              <i class="align-middle" data-feather="log-in"></i> <span class="align-middle">Iniciar sesión</span>
+            </a>
+					</li>
+					
+					<li class="sidebar-header">
+						Herramientas
+					</li>
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="ui-buttons.html">
+			  <i class="material-icons align-middle">bloodtype</i> <span class="align-middle">Donaciones</span>
+            </a>
+					</li>
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="ui-Laboratorio.html">
+			  <i class="material-icons align-middle">biotech</i> <span class="align-middle">Laboratorio</span>
+			</a>	
+					</li>
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="ui-Procesado.html">
+			  <i class="material-icons align-middle"><span class="material-symbols-outlined">
+				account_tree
+				</span></i> <span class="align-middle">Procesado</span>
+            </a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="icons-feather.html">
+              <i class="material-icons align-middle">folder</i> <span class="align-middle">Almacen</span>
+            </a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="main">
+			<nav class="navbar navbar-expand navbar-light navbar-bg">
+				<a class="sidebar-toggle js-sidebar-toggle">
+          <i class="hamburger align-self-center"></i>
+        </a>
+
+				<div class="navbar-collapse collapse">
+					<ul class="navbar-nav navbar-align">
+						
+						<li class="nav-item dropdown">
+							<a class="nav-icon dropdown-toggle d-inline-block d-sm-none" href="#" data-bs-toggle="dropdown">
+                <i class="align-middle" data-feather="settings"></i>
+              </a>
+
+							<a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-bs-toggle="dropdown">
+                <img src="img/avatars/avatar.jpg" class="avatar img-fluid rounded me-1" alt="Usuario" /> <span class="text-dark">Usuario</span>
+              </a>
+							<div class="dropdown-menu dropdown-menu-end">
+								<a class="dropdown-item" href="pages-profile.html"><i class="align-middle me-1" data-feather="user"></i> Perfil</a>
+								<a class="dropdown-item" href="index.html"><i class="align-middle me-1" data-feather="pie-chart"></i> Dashboard</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Cerrar sesión</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+
+			<main class="content">
+				<div class="container-fluid p-0">
+
+					<div class="row">
+
+						<div class="col-12 col-lg-6">
+							<h1 class="h3 d-inline align-middle">Fraccionamiento de bolsas</h1>
+							<br>
+							<br>
+							<div class="card">
+								<div class="card-header">
+									<h5 class="card-title mb-0">Numero de la donacion</h5>
+									<br>
+									<input type="text" class="form-control" placeholder="Numero de la donacion realizada">
+								</div>
+								<div class="card-header">
+									<h5 class="card-title mb-0">Fecha de vencimiento</h5>
+									<br>
+										<label class="card-title mb-0">&emsp;&emsp;Desde</label>
+										&emsp;&emsp;&nbsp;<input type="date">
+									<br>
+										<label class="card-title mb-0">&emsp;&emsp;Hasta</label>
+										&emsp;&emsp;&ensp;<input type="date">
+								</div>
+								<div class="card-header">
+									<h5 class="card-title mb-0">Tipo de bolsa</h5>
+									<br>
+									<input type="text" class="form-control" placeholder="Tipo de bolsa">
+								</div>
+
+								<button class="btn btn-success">Registrar</button>
+							</div>
+
+							<div class="mb-3">
+								<h1 class="h3 d-inline align-middle">Grupo de bolsa</h1>
+							</div>
+							<div class="card">
+								<div class="card-header">
+									<h5 class="card-title mb-0">Numero de la donacion</h5>
+									<br>
+									<input type="text" class="form-control" placeholder="Numero de la donacion realizada">
+								</div>
+								<div class="card-header">
+									<h5 class="card-title mb-0">Grupo</h5>
+									<br>
+									<input type="text" class="form-control" placeholder="Grupo">
+								</div>
+								<div class="card-header">
+									<h5 class="card-title mb-0">Rh</h5>
+									<br>
+									<input type="text" class="form-control" placeholder="Rh">
+								</div>
+								<button class="btn btn-success">Registrar</button>
+							</div>
+							<div class="mb-3">
+								<h1 class="h3 d-inline align-middle">Modificacion de componentes</h1>
+							</div>
+							<div class="card">
+								<div class="card-header">
+									<h5 class="card-title mb-0">Numero de Unidad</h5>
+									<br>
+									<input type="text" class="form-control" placeholder="Numero de Donacion">
+								</div>
+								<div class="card-header">
+									<h5 class="card-title mb-0">Componentes a modificar</h5>
+									<br>
+										<label class="card-title mb-0">&emsp;&emsp;Codigo</label>
+										&emsp;&emsp;<input type="text"  placeholder="Codigo">
+									<br>
+										<label class="card-title mb-0">&emsp;&emsp;Cantidad</label>
+										&emsp;<input type="text"  placeholder="Cantidad">
+								</div>
+
+								<button class="btn btn-success">Modificar</button>
+							</div>
+						</div>
+
+						<div class="col-12 col-lg-6">
+							
+							<h1 class="h3 d-inline align-middle">Pool</h1>
+							<br>
+							<br>
+							<div class="card">
+								<div class="card-header">
+									<h5 class="card-title mb-0">Numero de unidades</h5>
+								</div>
+								<div class="card-header">
+									<label class="card-title mb-0">&emsp;&emsp;1</label>
+										&emsp;<input type="text"  placeholder="Unidad">
+								<br>
+								<br>
+									<label class="card-title mb-0">&emsp;&emsp;2</label>
+										&emsp;<input type="text"  placeholder="Unidad">
+								<br>
+								<br>
+									<label class="card-title mb-0">&emsp;&emsp;3</label>
+										&emsp;<input type="text"  placeholder="Unidad">
+								<br>
+								<br>
+									<label class="card-title mb-0">&emsp;&emsp;4</label>
+										&emsp;<input type="text"  placeholder="Unidad">
+
+								<br>
+								<br>
+									<label class="card-title mb-0">&emsp;&emsp;5</label>
+										&emsp;<input type="text"  placeholder="Unidad">
+								<br>
+								<br>
+									<label class="card-title mb-0">&emsp;&emsp;6</label>
+										&emsp;<input type="text"  placeholder="Unidad">
+								<br>
+								<br>
+									<label class="card-title mb-0">&emsp;&emsp;7</label>
+										&emsp;<input type="text"  placeholder="Unidad">
+								</div>
+								<button class="btn btn-success">Registrar</button>
+							</div>
+
+							<h1 class="h3 d-inline align-middle">Fraccionamiento de bolsas</h1>
+							<br>
+							<br>
+							<div class="card">
+								<div class="card-header">
+									<h5 class="card-title mb-0">Numero de la donacion</h5>
+									<br>
+									<input type="text" class="form-control" placeholder="Numero de la donacion realizada">
+								</div>
+								<div class="card-header">
+									<h5 class="card-title mb-0">Componentes</h5>
+									<br>
+									<input type="text" class="form-control" placeholder="Componentes">
+								</div>
+
+								<div class="card-header">
+									<h5 class="card-title mb-0">Volumen</h5>
+									<br>
+									<input type="text" class="form-control" placeholder="Volumen">
+								</div>
+
+								<button class="btn btn-success">Registrar</button>
+							</div>
+
+							<h1 class="h3 d-inline align-middle">Impresion de etiquetas</h1>
+							<br>
+							<br>
+							<div class="card">
+								<div class="card-header">
+									<h5 class="card-title mb-0">Numero de Unidad</h5>
+									<br>
+									<input type="text" class="form-control" placeholder="Numero de Unidad">
+								</div>
+								<div class="card-header">
+									<h5 class="card-title mb-0">Etiqueta</h5>
+									<br>
+									<input type="text" class="form-control" placeholder="Etiqueta">
+								</div>
+
+								<button class="btn btn-success">Registrar</button>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</main>
+
+			<footer class="footer">
+				<div class="container-fluid">
+					<div class="row text-muted">
+						<div class="col-6 text-start">
+							<p class="mb-0">
+								<a class="text-muted" href="index.html" target="_blank"><strong>Nosfer</strong></a> - <a class="text-muted" href="index.html" target="_blank"><strong>Banco de Sangre</strong></a>								&copy;
+							</p>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+
+	<script src="js/app.js"></script>
+
+</body>
+
+</html>
