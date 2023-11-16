@@ -356,20 +356,20 @@
 
 					<div class="row">
 						<div class="col-12 col-lg-6">
-							<form class="Rectangle10" action="js/registro.js" method="post">
+							<form class="Rectangle10" action="registro.php" method="post">
 								<div style="display: flex;" class="card-header">
 									<h5 class="textotitulo">REGISTRAR DONANTE</h5>
 									<button class="botonBuscar" style="margin-top: 20px;margin-left: 50px">
 										<p class="textoboton" style="text-align: center;">REGISTRAR</p>
 									</button>
 								</div>
-								<h1 class= "textonormal" style="margin-left: 50px; margin-top: 50px;">Nombres</h1>
+								<h1  class= "textonormal" style="margin-left: 50px; margin-top: 50px;">Nombres</h1>
 								<div style="margin-left: 50px">
-									<input type="text" class="Rectangle21" placeholder="">
+									<input name="nombres" type="text" class="Rectangle21" placeholder="" required>
 								</div>
 								<h1 class= "textonormal" style="margin-left: 50px;margin-top: 50px;">Apellidos</h1>
 								<div style="margin-left: 50px">
-									<input type="text" class="Rectangle21" placeholder="">
+									<input name="apellidos" type="text" class="Rectangle21" placeholder="">
 								</div>
 								<div>
 									<div style="display: flex;">
@@ -378,21 +378,21 @@
 									</div>
 									<div style="display: flex;">
 										<div style="margin-left: 50px">
-											<input type="text" class="Rectangle21" placeholder="" style="width: 200px;">
+											<input name="documento" type="text" class="Rectangle21" placeholder="" style="width: 200px;"required>
 										</div>
 										<div style="margin-left: 30px">
-											<input type="text" class="Rectangle21" placeholder="" style="width: 230px;">
+											<input name="tipo_sangre" type="text" class="Rectangle21" placeholder="" style="width: 230px;"required>
 										</div>
 									</div>
 									<h1 class= "textonormal" style="margin-left: 50px;margin-top: 50px;">Fecha de Nacimiento</h1>
 									<div style="margin-left: 50px">
-										<input type="text" class="Rectangle21" placeholder="">
+										<input name="fecha_nacimiento" type="text" class="Rectangle21" placeholder=""required>
 									</div>
 							</div>
 							</form>
 						</div>
 						<div class="col-12 col-lg-6">
-							<div class="Rectangle10" style="height: 350px;">
+							<form class="Rectangle10" style="height: 350px;" action="busqueda.php" method="post">
 								<div style="display: flex;" class="card-header">
 									<h5 class="textotitulo">INFORAMCIÓN DEL DONANTE</h5>
 									<button class="botonBuscar" style="margin-top: 20px;margin-left: 90px">
@@ -401,14 +401,14 @@
 								</div>
 								<h1 class= "textonormal" style="margin-left: 50px;margin-top: 50px;">Buscar por documento</h1>
 								<div style="margin-left: 50px">
-									<input type="text" class="Rectangle21" placeholder="">
+									<input name="documento" type="text" class="Rectangle21" placeholder="">
 								</div>
 								<h1 class= "textonormal" style="margin-left: 50px;margin-top: 50px;">Buscar por Nombre y Apellido</h1>
 								<div style="margin-left: 50px">
-									<input type="text" class="Rectangle21" placeholder="">
+									<input name="nombre" type="text" class="Rectangle21" placeholder="">
 								</div>
 								
-							</div>
+							</from>
 							<div class="Rectangle10" style="height: 350px;margin-top: 50px;">
 								<div style="display: flex;" class="card-header">
 									<h5 class="textotitulo">REGISTRAR DONACIÓN</h5>
