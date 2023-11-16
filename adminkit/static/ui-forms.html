@@ -18,6 +18,69 @@
 
 	<link href="css/app.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+	<style>
+		.Rectangle10{
+		
+		width: 650px;
+		height: 749px;
+		left: 300px;
+		top: 150px;
+
+		background: #F1F1F1;
+		border-radius: 20px;
+		}
+		.textotitulo{
+		position: relative ;
+		width: 338.16px;
+		height: 33.24px;
+		left: 50px;
+		top: 30px;
+
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 22px;
+		line-height: 27px;
+
+		color: #840202;
+		}
+		.textonormal{
+			
+			font-family: 'Inter';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 22px;
+			line-height: 27px;
+
+			color: #000000;
+		}
+		.Rectangle21{
+
+		box-sizing: border-box;
+
+		width: 463.77px;
+		height: 40px;
+		left: 133.17px;
+		top: 213px;
+
+		background: #E8E8E8;
+		border: 1px solid #CDCDCD;
+		border-radius: 20px;
+		}
+		.botonBuscar{
+		position: relative;
+		width: 150px;
+		height: 40px;
+		background: rgba(232, 40, 40, 0.7);
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		border-radius: 20px;
+		}
+		.textoboton{
+		font-weight: 300;
+		font-size: 20px;
+		color: #FFFFFF;
+		}
+	</style>
 </head>
 
 <body>
@@ -293,178 +356,80 @@
 			<main class="content">
 				<div class="container-fluid p-0">
 
-					<div class="mb-3">
-						<h1 class="h3 d-inline align-middle">Forms</h1>
-						<a class="badge bg-dark text-white ms-2" href="upgrade-to-pro.html">
-      Get more form examples
-  </a>
-					</div>
 					<div class="row">
 						<div class="col-12 col-lg-6">
-							<div class="card">
-								<div class="card-header">
-									<h5 class="card-title mb-0">Input</h5>
+							<div class="Rectangle10">
+								<div style="display: flex;" class="card-header">
+									<h5 class="textotitulo">REGISTRAR DONANTE</h5>
+									<button class="botonBuscar" style="margin-top: 20px;margin-left: 50px">
+										<p class="textoboton" style="text-align: center;">REGISTRAR</p>
+									</button>
 								</div>
-								<div class="card-body">
-									<input type="text" class="form-control" placeholder="Input">
+								<h1 class= "textonormal" style="margin-left: 50px; margin-top: 50px;">Nombres</h1>
+								<div style="margin-left: 50px">
+									<input type="text" class="Rectangle21" placeholder="">
 								</div>
-							</div>
-
-							<div class="card">
-								<div class="card-header">
-									<h5 class="card-title mb-0">Textarea</h5>
+								<h1 class= "textonormal" style="margin-left: 50px;margin-top: 50px;">Apellidos</h1>
+								<div style="margin-left: 50px">
+									<input type="text" class="Rectangle21" placeholder="">
 								</div>
-								<div class="card-body">
-									<textarea class="form-control" rows="2" placeholder="Textarea"></textarea>
-								</div>
-							</div>
-
-							<div class="card">
-								<div class="card-header">
-									<h5 class="card-title mb-0">Checkboxes</h5>
-								</div>
-								<div class="card-body">
-									<div>
-										<label class="form-check">
-            <input class="form-check-input" type="checkbox" value="">
-            <span class="form-check-label">
-              Option one is this and that&mdash;be sure to include why it's great
-            </span>
-          </label>
-										<label class="form-check">
-            <input class="form-check-input" type="checkbox" value="" disabled>
-            <span class="form-check-label">
-              Option two is disabled
-            </span>
-          </label>
+								<div>
+									<div style="display: flex;">
+										<h1 class= "textonormal" style="margin-left: 50px;margin-top: 50px;">Documento</h1>
+										<h1 class= "textonormal" style="margin-left: 100px;margin-top: 50px;">Tipo de Sangre</h1>
 									</div>
-									<div>
-										<label class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" value="option1">
-            <span class="form-check-label">
-              1
-            </span>
-          </label>
-										<label class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" value="option2">
-            <span class="form-check-label">
-              2
-            </span>
-          </label>
-										<label class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" value="option3" disabled>
-            <span class="form-check-label">
-              3
-            </span>
-          </label>
+									<div style="display: flex;">
+										<div style="margin-left: 50px">
+											<input type="text" class="Rectangle21" placeholder="" style="width: 200px;">
+										</div>
+										<div style="margin-left: 30px">
+											<input type="text" class="Rectangle21" placeholder="" style="width: 230px;">
+										</div>
 									</div>
-								</div>
+									<h1 class= "textonormal" style="margin-left: 50px;margin-top: 50px;">Fecha de Nacimiento</h1>
+									<div style="margin-left: 50px">
+										<input type="text" class="Rectangle21" placeholder="">
+									</div>
 							</div>
-
-							<div class="card">
-								<div class="card-header">
-									<h5 class="card-title mb-0">Read only</h5>
-								</div>
-								<div class="card-body">
-									<input class="form-control" type="text" placeholder="Readonly input" readonly>
-								</div>
 							</div>
 						</div>
-
 						<div class="col-12 col-lg-6">
-							<div class="card">
-								<div class="card-header">
-									<h5 class="card-title mb-0">Radios</h5>
+							<div class="Rectangle10" style="height: 350px;">
+								<div style="display: flex;" class="card-header">
+									<h5 class="textotitulo">INFORAMCIÓN DEL DONANTE</h5>
+									<button class="botonBuscar" style="margin-top: 20px;margin-left: 90px">
+										<p class="textoboton" style="text-align: center;">BUSCAR</p>
+									</button>
 								</div>
-								<div class="card-body">
-									<div>
-										<label class="form-check">
-            <input class="form-check-input" type="radio" value="option1" name="radios-example" checked>
-            <span class="form-check-label">
-              Option one is this and that&mdash;be sure to include why it's great
-            </span>
-          </label>
-										<label class="form-check">
-            <input class="form-check-input" type="radio" value="option2" name="radios-example">
-            <span class="form-check-label">
-              Option two can be something else and selecting it will deselect option one
-            </span>
-          </label>
-										<label class="form-check">
-            <input class="form-check-input" type="radio" value="option3" name="radios-example" disabled>
-            <span class="form-check-label">
-              Option three is disabled
-            </span>
-          </label>
-									</div>
-									<div>
-										<label class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inline-radios-example" value="option1">
-            <span class="form-check-label">
-              1
-            </span>
-          </label>
-										<label class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inline-radios-example" value="option2">
-            <span class="form-check-label">
-              2
-            </span>
-          </label>
-										<label class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inline-radios-example" value="option3" disabled>
-            <span class="form-check-label">
-              3
-            </span>
-          </label>
-									</div>
+								<h1 class= "textonormal" style="margin-left: 50px;margin-top: 50px;">Buscar por documento</h1>
+								<div style="margin-left: 50px">
+									<input type="text" class="Rectangle21" placeholder="">
 								</div>
+								<h1 class= "textonormal" style="margin-left: 50px;margin-top: 50px;">Buscar por Nombre y Apellido</h1>
+								<div style="margin-left: 50px">
+									<input type="text" class="Rectangle21" placeholder="">
+								</div>
+								
 							</div>
-
-							<div class="card">
-								<div class="card-header">
-									<h5 class="card-title mb-0">Selects</h5>
+							<div class="Rectangle10" style="height: 350px;margin-top: 50px;">
+								<div style="display: flex;" class="card-header">
+									<h5 class="textotitulo">REGISTRAR DONACIÓN</h5>
+									<button class="botonBuscar" style="margin-top: 20px;margin-left: 90px">
+										<p class="textoboton" style="text-align: center;">BUSCAR</p>
+									</button>
 								</div>
-								<div class="card-body">
-									<select class="form-select mb-3">
-          <option selected>Open this select menu</option>
-          <option>One</option>
-          <option>Two</option>
-          <option>Three</option>
-        </select>
-
-									<select multiple class="form-control">
-          <option>One</option>
-          <option>Two</option>
-          <option>Three</option>
-          <option>Four</option>
-        </select>
+								<h1 class= "textonormal" style="margin-left: 50px;margin-top: 50px;">Documento de Donante</h1>
+								<div style="margin-left: 50px">
+									<input type="text" class="Rectangle21" placeholder="">
 								</div>
-							</div>
-
-							<div class="card">
-								<div class="card-header">
-									<h5 class="card-title mb-0">Disabled</h5>
+								<h1 class= "textonormal" style="margin-left: 50px;margin-top: 50px;">Cantidad de Unidades Donadas</h1>
+								<div style="margin-left: 50px">
+									<input type="text" class="Rectangle21" placeholder="">
 								</div>
-								<div class="card-body">
-									<div class="mb-3">
-										<label class="form-label">Disabled input</label>
-										<input type="text" class="form-control" placeholder="Disabled input" disabled>
-									</div>
-									<div class="mb-3">
-										<label class="form-label">Disabled select menu</label>
-										<select class="form-control" disabled>
-            <option>Disabled select</option>
-          </select>
-									</div>
-									<label class="form-check">
-          <input class="form-check-input" type="checkbox" value="" disabled>
-          <span class="form-check-label">
-            Can't check this
-          </span>
-        </label>
-								</div>
+								
 							</div>
 						</div>
+						
 					</div>
 
 				</div>
