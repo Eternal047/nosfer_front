@@ -10,9 +10,6 @@
 	<meta name="keywords" content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
 
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link rel="shortcut icon" href="img/icons/icon-48x48.png" />
-
-	<link rel="canonical" href="https://demo-basic.adminkit.io/ui-forms.html" />
 
 	<title>Laboratorio</title>
 
@@ -25,7 +22,7 @@
 	<div class="wrapper">
 		<nav id="sidebar" class="sidebar js-sidebar">
 			<div class="sidebar-content js-simplebar">
-				<a class="sidebar-brand" href="index.html">
+				<a class="sidebar-brand" href="pages-profile.html">
           <span class="align-middle">Nosfer</span>
         </a>
 
@@ -33,7 +30,6 @@
 					<li class="sidebar-header">
 						Menu
 					</li>
-
 
 					<li class="sidebar-item">
 						<a class="sidebar-link" href="pages-profile.html">
@@ -87,11 +83,10 @@
               </a>
 
 							<a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-bs-toggle="dropdown">
-                <img src="img/avatars/avatar.jpg" class="avatar img-fluid rounded me-1" alt="Usuario" /> <span class="text-dark">Usuario</span>
+                <img src="img/avatars/luna.png" class="avatar img-fluid rounded me-1" alt="Usuario" /> <span class="text-dark">Dr Zaza</span>
               </a>
 							<div class="dropdown-menu dropdown-menu-end">
 								<a class="dropdown-item" href="pages-profile.html"><i class="align-middle me-1" data-feather="user"></i> Perfil</a>
-								<a class="dropdown-item" href="index.html"><i class="align-middle me-1" data-feather="pie-chart"></i> Dashboard</a>
 								<div class="dropdown-divider"></div>
 								<a class="dropdown-item" href="#">Cerrar sesión</a>
 							</div>
@@ -111,7 +106,24 @@
 								</div>
 								<div class="card-body">
 									<h5>Tipo</h5>
-									<input type="text" class="form-control" placeholder="Ingrese el tipo">
+									<select class="form-select">
+										<option disabled selected value="">Selecciona una opción</option>
+										<option>Sangre</option>
+										<option>Plaquetas</option>
+										<option>Plasma</option>
+									</select>
+									<br>
+									<select class="form-select">
+										<option disabled selected value="">Selecciona una opción</option>
+										<option>O+</option>
+										<option>O-</option>
+										<option>AB+</option>
+										<option>AB-</option>
+										<option>A+</option>
+										<option>A-</option>
+										<option>B+</option>
+										<option>B-</option>
+									</select>
 								</div>
 								<div class="card-body">
 									<h5>Fecha de vencimiento</h5>
@@ -122,7 +134,7 @@
 									<h5>Stock</h5>
 									<input type="text" class="form-control" placeholder="Ingrese stock">
 								</div>
-								<button class="btn btn-success">REGISTRAR</button>
+								<button class="btn btn-danger">REGISTRAR</button>
 							</div>
 
 							<div class="card">
@@ -135,9 +147,13 @@
 								</div>
 								<div class="card-body">
 									<h5>Prueba</h5>
-									<input type="text" class="form-control" placeholder="">
+									<select class="form-select">
+										<option disabled selected value="">Selecciona una opción</option>
+										<option>Control de Calidad</option>
+										<option>Examen Final</option>
+									</select>
 								</div>
-								<button class="btn btn-success">BUSCAR</button>
+								<button class="btn btn-danger">BUSCAR</button>
 							</div>
 						</div>
 						<div class="col-12 col-lg-6">
@@ -152,16 +168,21 @@
 								</div>
 								<div class="card-body">
 									<h5>Tipo de muestra</h5>
-									<input type="text" class="form-control" placeholder="Tipo">
+									<select class="form-select">
+										<option disabled selected value="">Selecciona una opción</option>
+										<option>Sangre</option>
+										<option>Plaquetas</option>
+										<option>Plasma</option>
+									</select>
 								</div>
 								<div class="card-body">
 									<h5>Código de donante</h5>
 									<input type="text" class="form-control" placeholder="Codigo">
 								</div>
-								<button class="btn btn-success">BUSCAR</button>
+								<button class="btn btn-danger">BUSCAR</button>
 							</div>
 
-							<div class="card">
+							<div class="card " >
 								<div class="card-header">
 									<h5 class="card-title mb-0">VALIDACION POR DONANTE</h5>
 								</div>
@@ -173,7 +194,7 @@
 									<h5>Historial Medico</h5>
 									<input type="text" class="form-control" placeholder="ID">
 								</div>
-								<button class="btn btn-success">VALIDAR</button>
+								<button class="btn btn-danger">VALIDAR</button>
 							</div>
 						</div>	
 					</div>
