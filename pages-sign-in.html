@@ -2,6 +2,26 @@
 <html lang="en">
 
 <head>
+	<link rel="stylesheet" href="css/app.css">   
+	<style>
+        body {
+            background: rgba(255, 255, 255, 0.9); /* Fondo con 50% de opacidad */
+            background-image: url('img/avatars/almenara.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+		.letras-blancas {
+            color: white; /* Color del texto */
+            text-align: center;
+			font-weight: bold;
+        }
+		.letras-negritas {
+            font-weight: bold; /* Hace que el texto sea negrita */
+            text-align: center;
+        }
+		
+    </style>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,29 +34,36 @@
 
 	<link rel="canonical" href="https://demo-basic.adminkit.io/pages-sign-in.html" />
 
-	<title>Sign In | AdminKit Demo</title>
+	<title>Nosfer| Iniciar Sesión</title>
 
 	<link href="css/app.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body >
+	
+	<div>
 	<main class="d-flex w-100">
 		<div class="container d-flex flex-column">
 			<div class="row vh-100">
 				<div class="col-sm-10 col-md-8 col-lg-6 col-xl-5 mx-auto d-table h-100">
 					<div class="d-table-cell align-middle">
 
-						<div class="text-center mt-4">
-							<h1 class="h2">Bienvenido a NOSFER!</h1>
-							<p class="lead">
+						<div class="text-center mt-4"
+							<div style="background-color: rgb(163, 6, 17,0.85);border-radius: 10px; padding: 10px; position: relative">
+		
+							<br>	
+							<p class="letras-blancas"style="font-size: 30px"> 
+								Bienvenido a NOSFER</p>
+							<p class="lead; letras-blancas">
 								Inicia sesión para continuar
 							</p>
 						</div>
-
+							
 						<div class="card">
-							<div class="card-body">
+							<div class="card-body" style="background-color: rgb(245, 216, 218,0.5);border-radius: 10px; padding: 10px; position: relative;">
 								<div class="m-sm-3">
+									<strong></strong>
 									<form>
 										<div class="mb-3">
 											<label class="form-label">Usuario</label>
@@ -48,19 +75,16 @@
 										</div>
 										<div>
 											<div class="form-check align-items-center">
-												<input id="customControlInline" type="checkbox" class="form-check-input" value="remember-me" name="remember-me" checked>
+												<input id="customControlInline" type="checkbox" class="form-check-input" style="background-color: rgb(163, 6, 17)" value="remember-me" name="remember-me" checked>
 												<label class="form-check-label text-small" for="customControlInline">Recordar cuenta</label>
 											</div>
 										</div>
 										<div class="d-grid gap-2 mt-3">
-											<a href="index.html" class="btn btn-lg btn-primary">Iniciar Sesión</a>
+											<a href="index.html" class="btn btn-lg btn-secondary" style="background-color: rgb(163, 6, 17)">Iniciar Sesión</a>
 										</div>
 									</form>
 								</div>
 							</div>
-						</div>
-						<div class="text-center mb-3">
-							¿No tienes una cuenta? <a href="pages-sign-up.html">Registrate/a>
 						</div>
 					</div>
 				</div>
