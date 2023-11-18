@@ -34,14 +34,18 @@
 						Menu
 					</li>
 
-				
+					<li class="sidebar-item active">
+						<a class="sidebar-link" href="index.html">
+              <i class="align-middle" data-feather="sliders"></i> <span class="align-middle">Dashboard</span>
+            </a>
+					</li>
 
 					<li class="sidebar-item">
 						<a class="sidebar-link" href="pages-profile.html">
               <i class="align-middle" data-feather="user"></i> <span class="align-middle">Perfil</span>
             </a>
 					</li>
-				
+					
 					<li class="sidebar-header">
 						Herramientas
 					</li>
@@ -91,7 +95,6 @@
               </a>
 							<div class="dropdown-menu dropdown-menu-end">
 								<a class="dropdown-item" href="pages-profile.html"><i class="align-middle me-1" data-feather="user"></i> Perfil</a>
-								<a class="dropdown-item" href="index.html"><i class="align-middle me-1" data-feather="pie-chart"></i> Dashboard</a>
 								<div class="dropdown-divider"></div>
 								<a class="dropdown-item" href="#">Cerrar sesión</a>
 							</div>
@@ -117,12 +120,28 @@
 									<h5 class="card-title mb-2">Apellidos</h5>
 									<input type="text" class="form-control" placeholder="Registre el apellido">
 									<br>
-									<h5 class="card-title mb-2">Documento</h5>
-									<input type="text" class="form-control" placeholder="Documento de identidad">
+									
+									<h5 class="card-title mb-2">Tipo documento</h5>
+							
+										<div class="row align-items-start">
+											<div class="col-4">
+												<select class="form-select mb-0">
+													<option selected value="">DNI</option>
+													<option>Carnet de extr.</option>
+													<option>Pasaporte</option>
+													
+													</select>
+											</div>
+											<div class="col">
+												<input type="text" class="form-control">
+											</div>
+											
+										  </div>
+									  
 								</div>
 								<div class="card-body">
 									<h5 class="card-title mb-2">Tipo de sangre</h5>
-										<select class="form-select mb-3">
+										<select class="form-select mb-0">
 											<option disabled selected value="">Selecciona una opción</option>
 											<option>O+</option>
 											<option>O-</option>
@@ -134,9 +153,9 @@
 											<option>B-</option>
 											</select>
 									<br>
-									<h5 class="card-title mb-3">Fecha de nacimiento</h5>
-										<label class="card-title mb-0">&emsp;&emsp;Fecha</label>
-										&emsp;&emsp;&nbsp;<input type="date">
+									<h5 class="card-title mb-0">Fecha de nacimiento</h5>
+										<label class="card-body">Seleccionar</label>
+										<input type="date">
 								</div>
 								
 								<br>
